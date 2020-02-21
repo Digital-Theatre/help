@@ -49,21 +49,20 @@
   <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/docsify-themeable@0"></script>
   <script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
-<script>
-window.cookieconsent.initialise({
-  "palette": {
-    "popup": {
-      "background": "#161f28",
-      "text": "#ffffff"
-    },
-    "button": {
-      "background": "#d35400",
-      "text": "#ffffff"
-    }
-  },
-  "theme": "edgeless",
-  "type": "opt-in"
-});
-</script>
+    <script>
+      window.cookieconsent.initialise({
+        container: document.getElementById("cookieconsent"),
+        palette:{
+          popup: { background: "#161f28" },
+          button: { background: "#e0e0e0" },
+        },
+        revokable: true,
+        onStatusChange: function(status) {
+          console.log(this.hasConsented() ?
+          'enable cookies' : 'disable cookies');
+        },
+        "theme": "edgeless"
+      });
+    </script>
 </body>
 </html>
