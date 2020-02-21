@@ -6,7 +6,7 @@ Digital Theatre+ recommend for the most secure and usable experience, EZProxy sh
 
 Below are a list of issues that our customers have reported to us in relation to the use of EZProxy.
 
-## EZproxy link results in a page full of symbols
+## EZproxy link results in a page full of symbols {docsify-ignore}
 ### Summary of issue
 When accessing a resource, page loads random symbols and diamond-like shapes.
 #### Example
