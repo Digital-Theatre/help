@@ -11,6 +11,8 @@ If the issue persists, please follow these steps to send information to Digital 
 
 ## Information to provide to Digital Theatre+
 
+Below this list is a link to a form which will collect key information to enable Digital Theatre+ to help you.  You will be asked for the following:
+
 1. Provide an explanation the steps required to recreate the problem you are experiencing (the more detail, the quicker we can help)
 2. Confirm that cache and cookies have been cleared
 3. Confirm that the computer has been restarted
