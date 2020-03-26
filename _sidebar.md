@@ -1,4 +1,4 @@
-# Contents
+# Contents  {docsify-ignore}
 
 ## Getting started
 
