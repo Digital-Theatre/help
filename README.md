@@ -7,5 +7,3 @@
 * [Getting started](/getting-started/README.md)
 * [Troubleshooting](/troubleshooting/README.md)
 * [Support request forms](/support-forms/README/md)
-
-Please refer to the sidebar for available information.
