@@ -15,13 +15,14 @@ Note that these options are mutually exclusive, and cannot be used in combinatio
 ## Recommended authentication methods
 
 Use of Single Sign On (SSO) or Username and Password are preferred as both provide:
+
 * the most security to your users
 * minimisation of the administrative and support burden to your organisation
 * re-assurance that the quality of experience is not diminished by intermediaries
 
 ### Single Sign On (SSO) using your Identity Provider (IdP)
 
-1. This allows you to use your existing authentication solution - including UK Federation, OpenAthens, Google or Shibboleth - where you authenticate your users, and provide an assertion to Digital Theatre+ that the user is permitted access
+1. This allows you to use your existing authentication solution.  Any authentication solution that is compliant with SAML 2 can be used - including UK Federation, OpenAthens, Google, Azure Active Directory or Shibboleth
 2. The process for setting this up is described in [setting up single sign on](Setting-up-Single-Sign-On-(SSO))
 
 ### Username and password
@@ -36,6 +37,7 @@ Use of Single Sign On (SSO) or Username and Password are preferred as both provi
 2. Any request from these IP addresses is signed in to your account
 
 The use of IP Authentication infers a responsibility on yourself to
+
 * ensure that the IP address information Digital Theatre+ hold is always up to date
 * ensure that the IP addresses provided only allow the business entity under contract access to Digital Theatre+
 * ensure the security of those networks and systems behind those IP addresses is well kept
@@ -48,6 +50,7 @@ Generally security experts recommend against IP authentication.  IP addresses ar
 2. To use EZProxy, you provide Digital Theatre+ with the IP address of your EZProxy instance, and only that IP Address is permitted access to the service
 
 This is our least preferred option, as our customers experience tell us that:
+
 * Many EZProxy instances are poorly configured
 * Customers using EZProxy have many problems arising from using it - performance and degraded user experience being the most noticeable to end users
 * Many customers lack the necessary technical expertise, resources or budget to resolve these issues
@@ -55,4 +58,5 @@ This is our least preferred option, as our customers experience tell us that:
 * EZProxy represents an increasingly attractive target for bad actors to perform 'man-in-the-middle' attacks. A compromised EZProxy server could be a potent attack vector into the systems of every user of a library's resources
 
 Additionally, looking forward web development experts consider:
+
 * The current wave of browser development is focussed on security and privacy; systems that attempt to sit in the middle of transmission between browser and content are going to become more and more difficult to work with

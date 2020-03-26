@@ -1,8 +1,6 @@
 # WAYFless URLs
 
-
-## What is a WAYFless URL?
-
+## What is a WAYFless URL
 
 > A WAYFless URL, which is specific to an institution with associated users and to a web-based service or resource, enables a user from that institution to gain federated access to the service or resource in a way that bypasses the ‘Where Are You From’ (WAYF) or Discovery Service step.
 > Since a WAYF can be confusing and unpleasant to negotiate, bypassing it represents an improved end-user experience; this in turn can help organisations ensure that their users get best use of the services and resources that they provide.
@@ -17,7 +15,7 @@ On www.digitaltheatreplus.com the 'Where Are You From (WAYF)' step is on the rig
 
 Users of UK Federation are able to bypass the 'Where are you from' form by using a URL structured as follows:
 
-https://www.digitaltheatreplus.com/Shibboleth.sso/Login?entityID=your-entity-id&target=https%3A%2F%2Fwww.digitaltheatreplus.com%2Feducation
+[https://www.digitaltheatreplus.com/Shibboleth.sso/Login?entityID=your-entity-id&target=https%3A%2F%2Fwww.digitaltheatreplus.com%2Feducation](https://www.digitaltheatreplus.com/Shibboleth.sso/Login?entityID=your-entity-id&target=https%3A%2F%2Fwww.digitaltheatreplus.com%2Feducation)
 
 ### Instructions
 
