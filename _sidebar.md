@@ -1,5 +1,5 @@
 # Contents
 
-* [Getting started](getting-started/README.md)
-* [Troubleshooting](troubleshooting/README.md)
-* [Support request forms](support-forms/README.md)
+* [Getting started](getting-started/)
+* [Troubleshooting](troubleshooting/)
+* [Support request forms](support-forms/)
