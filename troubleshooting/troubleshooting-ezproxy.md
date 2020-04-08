@@ -19,3 +19,7 @@ When accessing a resource, page loads random symbols and diamond-like shapes.
 ### Recommended steps
 
 Please refer to this [support article on help.oclc.org](https://help.oclc.org/Library_Management/EZproxy/Troubleshooting/EZproxy_link_results_in_a_page_full_of_symbols)
+
+### Additional information
+
+Please see the [EZ Proxy Stanza for Digital Theatre+](../getting-started/ezproxy-stanza.md) page for example Stanza implementations.

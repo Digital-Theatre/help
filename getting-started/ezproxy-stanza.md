@@ -19,3 +19,21 @@ HJ https://digitaltheatreplus.com
 HJ https://www.digitaltheatreplus.com
 DJ digitaltheatreplus.com
 ```
+
+### Other Stanza configurations
+
+A customer who was experiencing an issue with Digital Theatre+ pages looking like [a page full of symbols](../troubleshooting/troubleshooting-ezproxy.md) found that in their system, the following configuration resolved the issue:
+
+```text
+Title Digital Theatre Plus
+HTTPHeader -ignoreGlobal
+URL https://www.digitaltheatreplus.com/
+Domain digitaltheatreplus.com
+Host www.digitaltheatreplus.com
+Host https://www.digitaltheatreplus.com
+HJ digitaltheatreplus.com
+HJ www.digitaltheatreplus.com
+HJ https://digitaltheatreplus.com
+HJ https://www.digitaltheatreplus.com
+DJ digitaltheatreplus.com
+```
