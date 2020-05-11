@@ -2,7 +2,7 @@
 
 > This website contains documentation to assist you with [digitaltheatreplus.com](https://www.digitaltheatreplus.com).
 
-## Contents
+## Please refer to the following topics
 
 * [Getting started with authentication, SSO, EZ Proxy Stanza and WAYFless URLs](/getting-started/README.md)
 * [Troubleshooting SSO, Video Playback and EZProxy](/troubleshooting/README.md)
